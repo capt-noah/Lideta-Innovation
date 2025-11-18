@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Alumni+Sans+Inline+One:ital@0;1&family=Gabarito:wght@400..900&family=Poiret+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* Animation Classes */
+
+.hidden-slide-in{
+    opacity: 0;
+    transition: all .2s ease-in;
+    transform: translateX(-50px);
+    filter: blur(5px);
+}
+  
+.hidden-slide-up{
+    opacity: 0;
+    transition: all .2s ease-in;
+    transform: translateY(50px);
+    filter: blur(5px);
+}
+  
+  .show{
+    opacity: 1;
+    transform: translateX(0px);
+    filter: blur(0px);
+  }
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, Roboto, Helvetica, sans-serif;
+}
+
+.service-page {
+  background-color: #DDE6ED;
+}
+
+.main-content {
+  background-color: #DDE6ED;
+  display: flex;
+  width: 90%;
+  height: fit-content;
+  padding: 2% 5%;
+  flex-direction: column;
+  align-items: start;
+  font-family:
+    Impact,
+    -apple-system,
+    Roboto,
+    Helvetica,
+    sans-serif;
+  font-size: 20px;
+  color: #526D82;
+  font-weight: 400;
+  letter-spacing: 1.2px;
+}
+
+
+.service-title {
+  color: #526D82;
+  font-size: 43px;
+  letter-spacing: 1.92px;
+}
+
+@media (max-width: 991px) {
+  .service-title {
+    max-width: 100%;
+  }
+}
+
+.service-image {
+  border-radius: 35px;
+  background-image: url("../../../Assets/managing information systems.jpeg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  width: 100%;
+  flex-shrink: 0;
+  height: 500px;
+}
+
+@media (max-width: 991px) {
+  .service-image {
+    margin-top: 40px;
+  }
+}
+
+.service-intro {
+  margin-top: 2%;
+  color: #526D82;
+}
+
+@media (max-width: 991px) {
+  .service-intro {
+    max-width: 100%;
+  }
+}
+
+.service-details {
+  color: rgba(82, 109, 130, 0.801);
+  margin-left: 2%;
+}
+
+@media (max-width: 991px) {
+  .service-details {
+    max-width: 100%;
+  }
+}
+
+.section-heading {
+  color: #526D82;
+  font-size: 24px;
+  letter-spacing: 1.44px;
+}
+
+
+.key-components {
+  color: rgba(82, 109, 130, 0.8);
+  margin-left: 2%;
+}
+
+@media (max-width: 991px) {
+  .key-components {
+    max-width: 100%;
+  }
+}
+
+.benefits-heading {
+    width: 1300px;
+  color: rgba(255, 255, 255, 1);
+  font-size: 24px;
+  letter-spacing: 1.44px;
+  margin-top: 28px;
+  margin-left: 58px;
+}
+
+@media (max-width: 991px) {
+  .benefits-heading {
+    margin-left: 10px;
+  }
+}
+
+.benefits-list {
+    width: 1300px;
+  line-height: 28px;
+  margin-top: 0px;
+  margin-left: 72px;
+}
+
+@media (max-width: 991px) {
+  .benefits-list {
+    max-width: 100%;
+  }
+}

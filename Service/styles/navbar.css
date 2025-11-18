@@ -1,0 +1,81 @@
+.nav-bar {
+  position: sticky;
+  width: 100%;
+  height: 90px;
+  top: 0;
+  left: 0;
+  background-color: #27374d;
+  z-index: 1000;
+  padding-left: 5%;
+  display: flex;
+  align-items: center;
+  gap: 5%;
+}
+
+.logo-container {
+  flex-shrink: 0;
+}
+
+.navbar-options {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  flex-wrap: wrap;
+}
+
+.navbar-options button {
+  border: none;
+  width: 100px;
+  height: 50px;
+  border-radius: 25px;
+  background-color: transparent;
+  color: white;
+  font-size: 15px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  letter-spacing: 0.78px;
+  transition: transform 0.2s ease-in-out;
+}
+
+.navbar-options button:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.navbar-options button:active {
+  transform: scale(0.95);
+}
+
+@media (max-width: 1024px) {
+  .navbar-options {
+      width: auto;
+      flex-direction: row;
+      justify-content: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .nav-bar {
+      flex-direction: column;
+      height: auto;
+      padding: 10px;
+  }
+
+  .navbar-options {
+      flex-direction: column;
+      width: 100%;
+      gap: 5px;
+  }
+
+  .navbar-options button {
+      width: 90%;
+      max-width: 200px;
+  }
+}
+
+@media (max-width: 480px) {
+  .navbar-options button {
+      width: 100%;
+  }
+}

@@ -1,0 +1,369 @@
+.footer {
+    width: 100%;
+    height: 197px;
+    background-color: #27374d;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .news-and-updates {
+    width: 242px;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10%;
+  }
+  
+  .subscribe-to-get-the {
+    font-family: "Imprima-Regular", Helvetica;
+    font-weight: 400;
+    color: #dde6ed;
+    font-size: 15px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .news-and-updates .footer-title {
+    font-family: "Roboto";
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .subscribe-input {
+    position: relative;
+    width: 100%;
+    height: 35%;
+  }
+  
+  .text-wrapper-17 {
+    position: absolute;
+    top: 8px;
+    left: 13px;
+    font-family: "Impact-Regular", Helvetica;
+    font-weight: 400;
+    color: #dde6ed;
+    font-size: 12px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .inbox {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    top: 8px;
+    left: 7px;
+  }
+  
+  .contact-us {
+    height: 135px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10%;
+  }
+
+  .contact-us .footer-title {
+    font-family: "Roboto";
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .phone {
+    width: 151px;
+    height: 20px;
+    display: flex;
+    gap: 5%;
+  }
+  
+  .phone-text {
+    font-family: "Imprima-Regular", Helvetica;
+    font-weight: 400;
+    color: #dde6ed;
+    font-size: 15px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .mail {
+    width: 196px;
+    height: 21px;
+    display: flex;
+    gap: 5%;
+  }
+  
+  .email-text {
+    font-family: "Imprima-Regular", Helvetica;
+    font-weight: 400;
+    color: #dde6ed;
+    font-size: 15px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+
+  .contact-us .links{
+    position: relative;
+    left: 0%;
+    width: 100%;
+    height: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .telegram-link {
+    display: flex;
+    width: 30px;
+    height: 30px;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    background-color: #d9d9d9;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .twitter-link {
+    display: flex;
+    width: 30px;
+    height: 30px;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    background-color: #d9d9d9;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+  }
+
+  .instagram-link {
+    display: flex;
+    width: 30px;
+    height: 30px;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    background-color: #d9d9d9;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .facebook-link {
+    display: flex;
+    width: 30px;
+    height: 30px;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    background-color: #d9d9d9;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .information {
+    height: 135px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10%;
+  }
+
+  .information .footer-title {
+    font-family: "Roboto";
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+
+  .information-links{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .information-links a{
+    font-family: "Roboto";
+    font-weight: 400;
+    color: #ffffffca;
+    font-size: 15px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .link {
+    height: 135px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10%;
+
+    font-family: "Imprima-Regular", Helvetica;
+    font-weight: 400;
+    color: #dde6ed;
+    font-size: 15px;
+  }
+
+  .link .footer-title {
+    font-family: "Roboto";
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+
+  .link-links{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .link-links a{
+    font-family: "Roboto";
+    font-weight: 400;
+    color: #ffffffca;
+    font-size: 15px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .web-info {
+    width: 302px;
+    height: 152px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 10%;
+  }
+
+  .web-info .logo-container{
+    margin-left: 5%;
+  }
+  
+  .footer .company-description {
+    width: 298px;
+    font-family: "Imprima-Regular", Helvetica;
+    font-weight: 400;
+    color: #dde6ed;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+
+  .footer a{
+    text-decoration: none;
+  }
+
+  .contact-us .phone-icon{
+    width: 20px;
+    height: 20px;
+    fill: #dde6ed;
+  }
+
+
+
+  .contact-us .email-icon{
+    width: 20px;
+    height: 20px;
+    fill: #dde6ed;
+  }
+
+  .contact-us .facebook-icon{
+    width: 20px;
+    height: 20px;
+    fill: #27374D;
+  }
+
+  .contact-us .instagram-icon{
+    width: 22px;
+    height: 22px;
+    fill: #27374D;
+  }
+
+  .contact-us .twitter-icon{
+    width: 20px;
+    height: 20px;
+    fill: #27374D;
+  }
+
+  .contact-us .telegram-icon{
+    width: 18px;
+    height: 20px;
+    fill: #27374D;
+  }
+
+  .contact-us button:active{
+    transform: scale(0.9);
+  }
+
+  .footer .input-box{
+    position: absolute;
+    width: 100%;
+    height: 45px;
+    padding-left: 15%;
+    border-radius: 10px;
+    border: none;
+    background-color: #D9D9D9;
+    outline: none;
+  }
+
+  .footer .sub-btn{
+    position: absolute;
+    top: 10%;
+    right: 1%;
+    width: 30%;
+    height: 70%;
+    border-radius: 10px;
+    border: none;
+    background-color: #9DB2BF;
+    cursor: pointer;
+
+    color: #DDE6ED;
+    font-size: 13px;
+    font-family: "Roboto";
+    font-weight: bold;
+  }
+
+  .footer .sub-btn:active{
+    transform: scale(0.9);
+  }
+
+  .footer .inbox-icon{
+    position: absolute;
+    left: 3%;
+    top: 25%;
+    width: 20px;
+    height: 20px;
+    fill: #526D82;
+  }
+
+  .footer input::placeholder{
+    position: relative;
+    color: rgb(82, 109, 130, 0.5);
+    font-size: 12px;
+  }
+
+  .footer input:focus{
+    color: rgb(82, 109, 130, 1);
+  }

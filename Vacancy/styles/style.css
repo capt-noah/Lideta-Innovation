@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Alumni+Sans+Inline+One:ital@0;1&family=Gabarito:wght@400..900&family=Poiret+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: #DDE6ED;
+}
+
+/* Animation Classes */
+
+.hidden-slide-in{
+    opacity: 0;
+    transition: all .2s ease-in;
+    transform: translateX(-50px);
+    filter: blur(5px);
+}
+  
+.hidden-slide-up{
+    opacity: 0;
+    transition: all .2s ease-in;
+    transform: translateY(50px);
+    filter: blur(5px);
+}
+  
+  .show{
+    opacity: 1;
+    transform: translateX(0px);
+    filter: blur(0px);
+  }
+
+.vacancy-section {
+    max-width: 90%;
+    margin-top: 5%;
+    padding: 3% 5%;
+    margin-bottom: 5%;
+    font-family: "Impact", sans-serif;
+    background-color: #DDE6ED;
+    display: flex;
+    flex-direction: column;
+  }
+
+  @media (max-width: 991px) {
+    .vacancy-section {
+      padding: 40px 20px;
+    }
+  }
+
+  @media (max-width: 640px) {
+    .vacancy-section {
+      padding: 20px;
+    }
+  }
+
+  .vacancies-title {
+    color: #526d82;
+    font-family: "Impact", sans-serif;
+    font-size: 48px;
+    font-weight: 400;
+    letter-spacing: 2.88px;
+    margin-bottom: 65px;
+  }
+
+  .job-listings {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 21px;
+  }
+
+  .job-card {
+    border: 2px solid #526d82;
+    border-radius: 21px;
+    padding: 21px;
+  }
+
+  .job-card:nth-child(1){
+    transition-delay: 200ms;
+  }
+
+  .job-card:nth-child(2){
+    transition-delay: 400ms;
+  }
+
+  .job-card:nth-child(3){
+    transition-delay: 600ms;
+  }
+
+  .job-card:nth-child(4){
+    transition-delay: 800ms;
+  }
+
+  .job-card:nth-child(5){
+    transition-delay: 1000ms;
+  }
+
+  .job-card:nth-child(6){
+    transition-delay: 1200ms;
+  }
+
+  .job-title {
+    color: #526d82;
+    font-family: "Impact", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 1.2px;
+    margin-bottom: 8px;
+  }
+
+  .job-meta {
+    color: #526d82;
+    font-family: "Inder", sans-serif;
+    font-size: 10px;
+    font-weight: 400;
+    letter-spacing: 0.6px;
+    margin-bottom: 17px;
+  }
+
+  .job-details {
+    display: flex;
+    gap: 35px;
+    margin-bottom: 22px;
+  }
+
+  .detail-group {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+  }
+
+  .detail-value {
+    color: #526d82;
+    font-family: "Roboto", sans-serif;
+    font-size: 12px;
+    font-weight: 900;
+    letter-spacing: 0.72px;
+  }
+
+  .detail-label {
+    color: #526d82;
+    font-family: "Inder", sans-serif;
+    font-size: 10px;
+    font-weight: 400;
+    letter-spacing: 0.6px;
+  }
+
+  .job-description {
+    color: #526d82;
+    font-family: "Roboto", sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.72px;
+    margin-bottom: 20px;
+  }
+
+  .skills-list {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 20px;
+    list-style: none;
+  }
+
+  .skill-tag {
+    border-radius: 17px;
+    color: #dde6ed;
+    font-family: "Roboto", sans-serif;
+    font-size: 10px;
+    font-weight: 400;
+    letter-spacing: 0.6px;
+    padding: 6px 13px;
+    background-color: #526d82;
+  }
+
+  .see-more-btn {
+    border-radius: 6px;
+    color: #dde6ed;
+    font-family: "Roboto", sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.6px;
+    padding: 6px 8px;
+    width: 100px;
+    background-color: #526d82;
+    border: none;
+    cursor: pointer;
+  }
+
+  .see-more-btn:active{
+    scale: .95;
+  }
+
+  .see-more-btn:hover{
+    background-color: rgba(82, 109, 130, 0.802);
+  }
+
+  @media (max-width: 991px) {
+    .vacancies-container {
+      padding: 60px 30px;
+    }
+    .job-listings {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
+  @media (max-width: 640px) {
+    .vacancies-container {
+      padding: 40px 20px;
+    }
+    .vacancies-title {
+      font-size: 36px;
+      margin-bottom: 40px;
+    }
+    .job-listings {
+      grid-template-columns: 1fr;
+    }
+  }

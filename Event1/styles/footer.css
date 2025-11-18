@@ -1,0 +1,445 @@
+.footer {
+  position: absolute;
+  width: 1440px;
+  height: 197px;
+  background-color: #27374d;
+}
+
+.news-and-updates {
+  position: absolute;
+  width: 242px;
+  height: 135px;
+  top: 37px;
+  left: 1111px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.subscribe-to-get-the {
+  position: absolute;
+  top: 40px;
+  font-family: "Imprima-Regular", Helvetica;
+  font-weight: 400;
+  color: #dde6ed;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.footer-title {
+  margin-top: 0px;
+  font-family: "Roboto";
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.subscribe-input {
+  position: absolute;
+  width: 250px;
+  height: 39px;
+  top: 96px;
+  left: 0;
+}
+
+.overlap-group-4 {
+  position: relative;
+  width: 250px;
+  height: 39px;
+  background-color: #d9d9d9;
+  border-radius: 10px;
+}
+
+.overlap-7 {
+  position: absolute;
+  width: 75px;
+  height: 30px;
+  top: 5px;
+  left: 155px;
+  background-color: #9db2bf;
+  border-radius: 10px;
+}
+
+.text-wrapper-17 {
+  position: absolute;
+  top: 8px;
+  left: 13px;
+  font-family: "Impact-Regular", Helvetica;
+  font-weight: 400;
+  color: #dde6ed;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.inbox {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  top: 8px;
+  left: 7px;
+}
+
+.text-wrapper-18 {
+  position: absolute;
+  top: 15px;
+  left: 44px;
+  font-family: "Imprima-Regular", Helvetica;
+  font-weight: 400;
+  color: #526d8280;
+  font-size: 10px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.contact-us {
+  position: absolute;
+  width: 198px;
+  height: 135px;
+  top: 37px;
+  left: 781px;
+}
+
+.phone {
+  position: absolute;
+  width: 151px;
+  height: 20px;
+  top: 43px;
+  left: 0;
+}
+
+.phone-text {
+  position: absolute;
+  top: 0;
+  left: 30px;
+  font-family: "Imprima-Regular", Helvetica;
+  font-weight: 400;
+  color: #dde6ed;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.phone-call {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  top: 0;
+  left: 0;
+}
+
+.mail {
+  width: 196px;
+  top: 72px;
+  left: 2px;
+  position: absolute;
+  height: 21px;
+}
+
+.email-text {
+  position: absolute;
+  top: 0px;
+  left: 32px;
+  font-family: "Imprima-Regular", Helvetica;
+  font-weight: 400;
+  color: #dde6ed;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.mail-2 {
+  width: 21px;
+  top: 0;
+  left: 0;
+  position: absolute;
+  height: 21px;
+}
+
+.telegram-link {
+  display: flex;
+  width: 30px;
+  height: 30px;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  position: absolute;
+  top: 108px;
+  left: 119px;
+  background-color: #d9d9d9;
+  border-radius: 15px;
+  border: none;
+  cursor: pointer;
+}
+
+.twitter-link {
+  display: flex;
+  width: 30px;
+  height: 30px;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  position: absolute;
+  top: 107px;
+  left: 80px;
+  background-color: #d9d9d9;
+  border-radius: 15px;
+  border: none;
+  cursor: pointer;
+}
+
+.instagram-link {
+  display: flex;
+  width: 30px;
+  height: 30px;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  position: absolute;
+  top: 108px;
+  left: 41px;
+  background-color: #d9d9d9;
+  border-radius: 15px;
+  border: none;
+  cursor: pointer;
+}
+
+.facebook-link {
+  display: flex;
+  width: 30px;
+  height: 30px;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  position: absolute;
+  top: 108px;
+  left: 2px;
+  background-color: #d9d9d9;
+  border-radius: 15px;
+  border: none;
+  cursor: pointer;
+}
+
+.information {
+  position: absolute;
+  width: 106px;
+  height: 99px;
+  top: 37px;
+  left: 615px;
+}
+
+.home-link {
+  position: absolute;
+  top: 42px;
+  left: 0;
+  font-family: "Imprima-Regular", Helvetica;
+  font-weight: 400;
+  color: #dde6ed;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.sectors-link {
+  position: absolute;
+  top: 62px;
+  left: 0;
+  font-family: "Imprima-Regular", Helvetica;
+  font-weight: 400;
+  color: #dde6ed;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.directories-link {
+  position: absolute;
+  top: 82px;
+  left: 0;
+  font-family: "Imprima-Regular", Helvetica;
+  font-weight: 400;
+  color: #dde6ed;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.links {
+  position: absolute;
+  width: 81px;
+  height: 139px;
+  top: 37px;
+  left: 478px;
+}
+
+.events-link {
+  position: absolute;
+  top: 102px;
+  left: 0;
+  font-family: "Imprima-Regular", Helvetica;
+  font-weight: 400;
+  color: #dde6ed;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.news-link {
+  position: absolute;
+  top: 122px;
+  left: 0;
+  font-family: "Imprima-Regular", Helvetica;
+  font-weight: 400;
+  color: #dde6ed;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.web-info {
+  position: absolute;
+  width: 302px;
+  height: 152px;
+  top: 21px;
+  left: 59px;
+}
+
+.text-wrapper-26 {
+  top: 0;
+  left: 0;
+  position: absolute;
+  font-family: "Impact-Regular", Helvetica;
+  font-weight: 400;
+  color: #dde6ed;
+  font-size: 48px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.footer .company-description {
+  position: absolute;
+  width: 298px;
+  top: 72px;
+  left: 0;
+  font-family: "Imprima-Regular", Helvetica;
+  font-weight: 400;
+  color: #dde6ed;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.footer .logo-container{
+  position: absolute;
+  left: 0px;
+  top: 0px;
+
+
+}
+
+.footer a{
+  text-decoration: none;
+}
+
+.contact-us .phone-icon{
+  width: 20px;
+  height: 20px;
+  fill: #dde6ed;
+}
+
+
+
+.contact-us .email-icon{
+  width: 20px;
+  height: 20px;
+  fill: #dde6ed;
+}
+
+.contact-us .facebook-icon{
+  width: 20px;
+  height: 20px;
+  fill: #27374D;
+}
+
+.contact-us .instagram-icon{
+  width: 22px;
+  height: 22px;
+  fill: #27374D;
+}
+
+.contact-us .twitter-icon{
+  width: 20px;
+  height: 20px;
+  fill: #27374D;
+}
+
+.contact-us .telegram-icon{
+  width: 18px;
+  height: 20px;
+  fill: #27374D;
+}
+
+.contact-us button:active{
+  transform: scale(0.9);
+}
+
+.footer .input-box{
+  width: 215px;
+  height: 45px;
+  padding-left: 35px;
+  border-radius: 10px;
+  border: none;
+  background-color: #D9D9D9;
+  outline: none;
+}
+
+.footer .sub-btn{
+  position: absolute;
+  top: 5px;
+  left: 176px;
+  width: 70px;
+  height: 35px;
+  border-radius: 10px;
+  border: none;
+  background-color: #9DB2BF;
+  cursor: pointer;
+
+  color: #DDE6ED;
+  font-size: 13px;
+  font-family: "Roboto";
+  font-weight: bold;
+}
+
+.footer .sub-btn:active{
+  transform: scale(0.9);
+}
+
+.footer .inbox-icon{
+  position: absolute;
+  left: 5px;
+  top: 12px;
+  width: 20px;
+  height: 20px;
+  fill: #526D82;
+}
+
+.footer input::placeholder{
+  position: relative;
+  color: rgb(82, 109, 130, 0.5);
+}
+
+.footer input:focus{
+  color: rgb(82, 109, 130, 1);
+}

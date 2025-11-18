@@ -1,0 +1,179 @@
+.home .nav-bar {
+  position: sticky;
+  width: 95%;
+  height: 10vh;
+  top: 0%;
+  background-color: #27374d;
+  z-index: 1000;
+  padding-left: 5%;
+  display: flex;
+  align-items: center;
+  gap: 5%;
+}
+
+.home .logo-container {
+  flex-shrink: 0;
+}
+
+.home .navbar-options {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  flex-wrap: wrap;
+}
+
+.navbar-options button {
+  border: none;
+  width: 100px;
+  height: 50px;
+  border-radius: 25px;
+  background-color: transparent;
+  color: white;
+  font-size: 15px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  letter-spacing: 0.78px;
+  transition: transform 0.2s ease-in-out;
+}
+
+.navbar-options button:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.navbar-options button:active {
+  transform: scale(0.95);
+}
+
+@media (max-width: 1024px) {
+  .home .navbar-options {
+      width: auto;
+      flex-direction: row;
+      justify-content: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .home .nav-bar {
+      flex-direction: column;
+      height: auto;
+      padding: 10px;
+  }
+
+  .home .navbar-options {
+      flex-direction: column;
+      width: 100%;
+      gap: 5px;
+  }
+
+  .navbar-options button {
+      width: 90%;
+      max-width: 200px;
+  }
+}
+
+@media (max-width: 480px) {
+  .navbar-options button {
+      width: 100%;
+  }
+}
+
+#moreBtn{
+  color: white;
+  font-size: 15px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  letter-spacing: 0.78px;
+}
+
+.language-container{
+  color: #27374d;
+  font-size: 15px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  letter-spacing: 0.78px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  background: #DDE6ED;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  padding: 8px 5px;
+  cursor: pointer;
+}
+
+#language-select{
+  outline: none;
+  border: none;
+  background-color: transparent;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.more-container {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+
+#moreBtn {
+  color: #DDE6ED;
+  padding: 10px 15px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  transition: background-color 0.3s;
+}
+
+#down-angle{
+  width: 10px;
+  height: 10px;
+  fill: #DDE6ED;
+}
+
+/* Dropdown Menu */
+#more-dropdown {
+  position: absolute;
+  left: 0;
+  top: 100%; /* Ensure it appears below the button */
+  background-color: white;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  width: 150px;
+  border-radius: 5px;
+  overflow: hidden;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+
+  /* Hide dropdown initially */
+  opacity: 0;
+  transform: scaleY(0);
+  transform-origin: top;
+  transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
+}
+
+/* Show dropdown on hover */
+.more-container:hover #more-dropdown {
+  opacity: 1;
+  transform: scaleY(1);
+}
+
+/* Dropdown Options */
+#more-dropdown li {
+  padding: 10px;
+  text-align: center;
+  background-color: white;
+  transition: background-color 0.3s;
+}
+
+#more-dropdown li:hover {
+  background-color: #f0f0f0;
+}
+
+.dropdown-options {
+  text-decoration: none;
+  color: black;
+  display: block;
+}
